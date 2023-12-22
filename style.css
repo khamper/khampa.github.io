@@ -11,6 +11,10 @@
     top:50px;
     left:50px;
 }
+.celery{
+    position:relative;
+    size:80px;
+}
 body{
     background-color:black;
 }
