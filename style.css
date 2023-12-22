@@ -2,6 +2,10 @@
     font-size:medium;
     color:purple;
 }
+.tstr{
+    text-align:center;
+    text-decoration-line:underline;
+}
 body{
     background-color:black;
 }

@@ -1,0 +1,12 @@
+.chatmain{
+    width:1000px;
+    height:1000px;
+    background-color:white;
+    margin:0 auto;
+}
+.room{
+    text-align:center;
+}
+body{
+    background-color:gray;
+}
