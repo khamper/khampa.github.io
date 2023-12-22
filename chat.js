@@ -1,21 +1,29 @@
+//*trying to do this without any tutorials*
+//i forbid the usage of any tutorials to make this
+//currently very simple and very useless
 let message = "Servers are unreachable.";
 let currentUser;
 
-var prvr = 0;
-
-function connectToServer()
+function getUsername()
 {
-    currentUser="debug";//for now
-    console.log("logged in as:", currentUser);
-    // TODO: add proper code here
+    //try to ask for username and then print to console the current username
+    try{
+        currentUser = prompt("enter your username:");
+    }finally{
+        console.log("logged in as:", currentUser);
+    }
 }
 
 function popup()
 {
-    if(prvr===1)
+    if(!currentUser==null)
     {
         connectToServer();
     } else{
-        alert(message);
+        getUsername();
     }
+}
+function connectToServer()
+{
+    return currentUser;
 }
