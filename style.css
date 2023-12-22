@@ -1,8 +1,13 @@
 .prvr{
     font-size:medium;
-    color:purple;
+    color:lightseagreen;
 }
 .tstr{
+    align-items: center;
+    margin:0 auto;
+    width:800px;
+    outline-style: groove;
+    outline-color:dodgerblue;
     text-align:center;
     text-decoration-line:underline;
 }
