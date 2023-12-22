@@ -6,6 +6,11 @@
     text-align:center;
     text-decoration-line:underline;
 }
+.nerdimg{
+    position:relative;
+    top:50px;
+    left:50px;
+}
 body{
     background-color:black;
 }
