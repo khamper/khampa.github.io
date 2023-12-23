@@ -12,17 +12,15 @@ function getUsername()
         console.log("logged in as:", currentUser);
     }
 }
-
 function popup()
 {
-    if(!currentUser==null)
-    {
-        connectToServer();
-    } else{
-        getUsername();
-    }
+    getUsername();
 }
-function connectToServer()
+function openChatRoom() 
 {
-    return currentUser;
+    if(currentUser!=null && currentUser!="")
+        window.open("index.html","Chat Room","width=300,height=200");  
+    else{
+        popup();
+    }
 }

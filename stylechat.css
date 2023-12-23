@@ -5,6 +5,10 @@
     background-color:white;
     margin:0 auto;
 }
+.ebutton{
+    width:150px;
+    height:50px;
+}
 .rainbow{
     position:relative;
     display: block;
