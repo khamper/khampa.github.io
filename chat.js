@@ -3,21 +3,23 @@
 //currently very simple and very useless
 
 let currentUser;
-
-function getUsername()
+function login() 
 {
     try{
-        currentUser = prompt("enter your username:");
+        while(currentUser==null || currentUser=="")
+            currentUser = prompt("enter your username:");
     }finally{
         console.log("logged in as:", currentUser);
+        alert("you may now enter the chat room");
     }
-    openChatRoom();
 }
-function openChatRoom() 
+function enterChatRoom()
 {
-    if(currentUser!=null && currentUser!="")
+    if(currentUser!=null)
+    {
         window.open("chatroom.html","Chat Room","width=300,height=200").innerHTML= "o priviec, " + currentUser;
+    }
     else{
-        getUsername();
+        alert("you must log in first");
     }
 }
