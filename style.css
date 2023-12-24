@@ -2,23 +2,32 @@
     font-size:medium;
     color:lightseagreen;
 }
-.convos{
-    text-align:center;
-}
 .tlink{
     color:red;
 }
-.tstr{
+.pirda{
+    display:block;
+    position:relative;
+    text-align:center;
     margin:0 auto;
     width:400px;
-    position:relative;
     top:-40px;
     outline-style: groove;
     outline-color:dodgerblue;
-    text-align:center;
+}
+.priviec{
+    display:block;
+    position:relative;
+    bottom: 36px;
+    color:deepskyblue;
 }
 .con{
+    position:relative;
+    display:block;
     color:red;
+    text-align:center;
+    width:400px;
+    margin:0 auto;
 }
 .nerdimg{
     position:relative;
@@ -34,6 +43,10 @@
 .celery{
     position:relative;
     size:80px;
+}
+.websites{
+    text-decoration-line: none;
+    font-size:xxx-large;
 }
 body{
     user-select:none;
