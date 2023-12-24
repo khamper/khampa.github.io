@@ -16,10 +16,7 @@ function getUsername()
 function openChatRoom() 
 {
     if(currentUser!=null && currentUser!="")
-    {
         window.open("chatroom.html","Chat Room","width=300,height=200").innerHTML= "o priviec, " + currentUser;
-        // document.getElementById("testas").innerHTML= "o priviec, " + currentUser;
-    }
     else{
         getUsername();
     }
