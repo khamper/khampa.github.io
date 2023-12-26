@@ -8,6 +8,10 @@
     outline-style: groove;
     outline-color:dodgerblue;
 }
+.log{
+    position:relative;
+    left:50px;
+}
 .priviec{
     width:60px;
     display:block;
@@ -26,7 +30,6 @@
 .nerdimg{
     position:relative;
     top:50px;
-    left:50px;
     border: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #fc2727 0%, #f8fc2c 25%, #33fd44 50%, #376cfe 75%, #fd1892 100%);
     border-image-slice:1;
