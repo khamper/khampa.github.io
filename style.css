@@ -1,4 +1,4 @@
-.pirda{
+.chatlink{
     display:block;
     position:relative;
     text-align:center;
@@ -12,8 +12,8 @@
     position:relative;
     left:50px;
 }
-.priviec{
-    width:60px;
+.webslink{
+    width: 0px;
     display:block;
     position:relative;
     bottom: 36px;
@@ -24,7 +24,8 @@
     display:block;
     color:red;
     text-align:center;
-    width:400px;
+    width:205px;
+    top:2px;
     margin:0 auto;
 }
 .nerdimg{
@@ -41,6 +42,9 @@
 .websites{
     text-decoration-line: none;
     font-size:xxx-large;
+}
+.homeb{
+    color:red;
 }
 body{
     user-select:none;
