@@ -1,3 +1,6 @@
+body{
+    background-color:black;
+}
 .chatlink{
     display:block;
     position:relative;
@@ -8,17 +11,6 @@
     outline-style: groove;
     outline-color:dodgerblue;
 }
-.log{
-    position:relative;
-    left:50px;
-}
-.webslink{
-    width: 0px;
-    display:block;
-    position:relative;
-    bottom: 36px;
-    color:deepskyblue;
-}
 .con{
     position:relative;
     display:block;
@@ -28,6 +20,10 @@
     top:2px;
     margin:0 auto;
 }
+.log{
+    position:relative;
+    left:50px;
+}
 .nerdimg{
     position:relative;
     top:50px;
@@ -35,18 +31,10 @@
     border-image: linear-gradient(to bottom right, #fc2727 0%, #f8fc2c 25%, #33fd44 50%, #376cfe 75%, #fd1892 100%);
     border-image-slice:1;
 }
-.celery{
+.webslink{
+    width: 0px;
+    display:block;
     position:relative;
-    size:80px;
-}
-.websites{
-    text-decoration-line: none;
-    font-size:xxx-large;
-}
-.homeb{
-    color:red;
-}
-body{
-    user-select:none;
-    background-color:black;
+    bottom: 36px;
+    color:deepskyblue;
 }

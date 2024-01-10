@@ -1,9 +1,6 @@
-//*trying to do this without any tutorials*
 //i forbid the usage of any tutorials to make this
-//currently very simple and very useless
 
 let currentUser;
-
 function login() 
 {
     if(currentUser!=null) 
