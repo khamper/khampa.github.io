@@ -4,8 +4,6 @@ body{
 .chatlink{
     display:block;
     position:relative;
-    text-align:center;
-    margin:0 auto;
     width:400px;
     top:-40px;
     outline-style: groove;
@@ -15,10 +13,7 @@ body{
     position:relative;
     display:block;
     color:red;
-    text-align:center;
-    width:205px;
     top:2px;
-    margin:0 auto;
 }
 .log{
     position:relative;
