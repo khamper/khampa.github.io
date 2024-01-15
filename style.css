@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    margin: 15px;
 }
 .chatlink{
     display:block;
@@ -11,6 +12,7 @@ body{
 }
 .con{
     position:relative;
+    width:200px;
     display:block;
     color:red;
     top:2px;
