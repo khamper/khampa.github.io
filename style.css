@@ -14,7 +14,7 @@ body{
     width:250px;
     display:block;
     color:red;
-    top:2px;
+    top:3px;
 }
 .log{
     position:relative;
@@ -31,6 +31,6 @@ body{
     width: 0px;
     display:block;
     position:relative;
-    bottom: 36px;
+    bottom: 41px;
     color:deepskyblue;
 }
